@@ -3,14 +3,14 @@
 	<head>
 		<style type = "text/css">
 			body{font-family: Arial;}
-			.document{ background: #f5f5f5; margin: 1rem; padding: 1rem; display: inline-block; width: 25%; border: none; border-radius: 0.5rem; line-height: 150% ;}
+			.document{ background: #f5f5f5; padding: 1rem;line-height: 150% ;}
 			p{margin:1rem 0; color: #465B66;}
 			h3{color: #002A4D}
 		}
 		</style>
 	</head>
 		<body>
-		<div onmousedown='DragScroller.StartScroll' onmousemove='DragScroller.ScrollNow' class="document">
+		<div style='overflow:hidden; height:500px width:300px;'  onmousedown='dragScroller.StartScroll' onmousemove='dragScroller.ScrollNow' class="document">
 			<h3>Pointer</h3>
 			<p>
 				In computer science, a pointer is a programming language object that stores the memory address of another value located in computer memory. A pointer references a location in memory, and obtaining the value stored at that location is known as dereferencing the pointer. As an analogy, a page number in a book's index could be considered a pointer to the corresponding page; dereferencing such a pointer would be done by flipping to the page with the given page number and reading the text found on that page. The actual format and content of a pointer variable is dependent on the underlying computer architecture.
